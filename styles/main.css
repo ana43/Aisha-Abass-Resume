@@ -1,0 +1,141 @@
+/* DEVELOPER: Aisha Abass, IS117-002, Spring 2020 */
+
+body {
+    min-height: 1000px;
+    padding-top: 56px;
+    background-color: #b1dfbb;
+    background-image:url('../photos/cssphoto.jpeg');
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Pagination styles*/
+.page-link{
+    color: black;
+    background-color: white;
+    text-align: center;
+    width: 100px;
+}
+
+/* Navigation styles */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.justify-content-center{
+    width: 2000px ;
+    color: #491217;
+}
+
+.fa-facebook-official{
+    color: #491217;
+}
+
+.fa-instagram{
+    color: #491217;
+}
+
+.fa-linkedin{
+    color: #491217;
+}
+
+.fa-twitter{
+    color: #491217;
+}
+
+.fa-snapchat{
+    color: #491217;
+}
+
+
+/* Carousel styles */
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.carousel-item {
+    height: 80vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Card styles */
+
+.card-body{
+    background: snow;
+}
+
+.btn-primary{
+    background-color: black;
+    text-align: center;
+    width: 380px;
+    border: white;
+
+}
+.card-title{
+    color: black;
+    text-align: center;
+}
+
+.card-text{
+    color: black;
+    text-align: center;
+}
+
+/*Interior Pages*/
+.col-lg-6{
+    color: white;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.mt-4{
+    color: white;
+    text-align: left;
+}
+.row{
+    text-align: left;
+}
+
+/*Contact Page*/
+.form-group{
+    color:white;
+    display: block;
+    margin: 30px 300px;
+    width: 500px;
+}
+
+.btn-primary2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 30px 300px;
+    width: 500px;
+}
+
+.carousel-2item{
+    height: 70vh;
+    min-height: 300px;
+}
+
+/*footer*/
+footer{
+    color: white;
+}
